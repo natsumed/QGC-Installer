@@ -8,7 +8,7 @@ echo "Installing QGroundControl..."
 sudo mkdir -p /opt/qgroundcontrol
 
 # Download QGC AppImage (Replace URL with your GitHub link)
-wget -O /opt/qgroundcontrol/QGroundControl.AppImage "https://github.com/natsumed/QGC-Installer/releases/latest/download/QGroundControl.AppImage"
+wget -O /opt/qgroundcontrol/QGroundControl.AppImage "https://drive.google.com/file/d/1UlFmIThwqQDBNIilSsao-pB_si2Rd97z/view?usp=sharing"
 sudo chmod +x /opt/qgroundcontrol/QGroundControl.AppImage
 
 # Download the icon (Replace URL)
