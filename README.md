@@ -20,13 +20,16 @@ Before running the installation script, ensure that you have the following prere
    git clone https://github.com/natsumed/QGC-Installer.git
    cd QGC-Installer
    ```
-
-2. **Run the Installation Script:**
+2. **Make the install_qgc.sh executable:**
+   ```sh
+   chmod +x install_qgc.sh
+   ```
+3. **Run the Installation Script:**
    ```sh
    sudo ./install_qgc.sh
    ```
 
-3. **Follow the On-Screen Instructions:**
+4. **Follow the On-Screen Instructions:**
    The script will automatically download the QGroundControl AppImage, configure the necessary directories, and set up a desktop shortcut for easy access.
 
 ## Usage
