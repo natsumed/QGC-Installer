@@ -5,10 +5,10 @@ set -e  # Stop script on error
 echo "Installing QGroundControl..."
 
 # Create necessary directories
-sudo mkdir -p /opt/qgroundcontroltest
+sudo mkdir -p /opt/qgroundcontrol
 
 # Download QGC AppImage from GitHub Releases
-wget -O /opt/qgroundcontrol/QGroundControl.AppImage "https://github.com/natsumed/QGC-Installer/releases/latest/download/QGroundControl.AppImage"
+wget -O /opt/qgroundcontrol/QGroundControl.AppImage "https://github.com/natsumed/QGC-Installer/releases/download/v1.0.0/QGroundControl-x86_64.AppImage"
 sudo chmod +x /opt/qgroundcontrol/QGroundControl.AppImage
 
 # Download the icon
@@ -17,7 +17,7 @@ wget -O /opt/qgroundcontrol/qgc-icon.png "https://github.com/natsumed/QGC-Instal
 # Create the .desktop file
 cat <<EOF | sudo tee /usr/share/applications/qgroundcontrol.desktop
 [Desktop Entry]
-Name=QGroundControltest
+Name=QGroundControl
 Comment=Ground Control Station for MAVLink UAVs
 Exec=/opt/qgroundcontrol/QGroundControl.AppImage
 Icon=/opt/qgroundcontrol/qgc-icon.png
