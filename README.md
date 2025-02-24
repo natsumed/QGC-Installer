@@ -32,6 +32,21 @@ Before running the installation script, ensure that you have the following prere
 4. **Follow the On-Screen Instructions:**
    The script will automatically download the QGroundControl AppImage, configure the necessary directories, and set up a desktop shortcut for easy access.
 
+## Uninstallation
+1. **Make the uninstall_qgc.sh executable:**
+   ```sh
+   chmod +x uninstall_qgc.sh
+   ```
+
+2. **Run the Uninstallation Script:**
+   ```sh
+   sudo ./uninstall_qgc.sh
+   ```
+
+3. **Follow the On-Screen Instructions:**
+   The script will remove QGroundControl, its associated files, and the desktop shortcut from your system.
+
+
 ## Usage
 After the installation is complete, you can find QGroundControl in your applications menu. Simply click on the QGroundControl icon to launch the application.
 
